@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    overflow: hidden;
+    font-family: poppins;
+}
+
+.brand-logo {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    -webkit-filter: drop-shadow(5px 5px 5px #00000074);
+    filter: drop-shadow(5px 5px 5px #0000006d);
+}
+
+.registration-form, .login-form {
+    width: 30%;
+    height: 91%;
+    border-radius: 20px;
+    padding: 33px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form{
+    height: 64%;
+}
+
+.inputs {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+label,
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input,
+select {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.form-group-e {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group-inline {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    width: 140px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #056ffb;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #056ffb;
+}
+
+a:hover {
+    color: blue;
+    text-shadow: 1px 1px 7px #000000;
+}
