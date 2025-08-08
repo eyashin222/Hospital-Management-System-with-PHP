@@ -1,0 +1,22 @@
+:::::Admim:::::
+username: asif
+password: asif1
+
+username: shamim
+password: shamim1
+
+
+
+
+:::::Database:::::
+#Database name:hms_db
+#All Table name: 
+tbl_admin
+tbl_appointment
+tbl_contact
+tbl_department
+tbl_employee
+tbl_patient
+tbl_role
+tbl_schedule
+tbl_Week
